@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head, body{
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+.main{
+    display: flex;
+    align-items: center;
+    max-height: 100vh;
+    max-width: 100vw;
+    gap: 5vw;
+}
+.image{
+    width: 45vw;
+    height: 100vh;
+    position: relative;
+}
+.logo{
+    max-height: 15vh;
+    width: 45vw;
+    position: relative;
+    top: 20vh;
+    background-color: rgba(254, 195, 254, 0.443);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logop{
+    font-size: 8rem;
+    color: #ffffff;
+}
+.logo img{
+    height: 15vh;
+    width: 5vw;
+    object-fit: cover;
+    margin: 2vw;
+    z-index: 13;
+}
+.image img[src="bake.jpg"]{
+    position: absolute;
+    width: 45vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro{
+    font-size: 1.2rem;
+    margin-right: 8vw;
+    position: relative;
+    top: -10vh;
+}
+legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+label, input{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 2px 0;
+    padding: 3px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+}
+label{
+    font-size: 0.7rem;
+}
+
+.frm{
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+}
+.left{
+    margin-left: 7vw;
+}
+
+button{
+    height: 5vh;
+    width: 8vw;
+    background-color: palevioletred;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px 10px;
+    box-shadow: 5px 5px black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 2vw;
+}
